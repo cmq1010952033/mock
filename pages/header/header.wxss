@@ -1,0 +1,35 @@
+
+.header{
+   overflow: hidden;
+   background: #fff;
+   padding: 20rpx 0rpx;
+   position: fixed;
+   top:0;
+   width: 100%;
+   box-shadow: 0rpx 5rpx 30rpx #efefef;
+   z-index: 999;
+}
+.logo{
+   width: 210rpx;
+   height: 50rpx;
+   float: left;
+}
+.more{
+   width: 50rpx;
+   height: 50rpx;
+   float: right;
+}
+.navListBox{
+   float: right;
+  
+ 
+}
+.navlist{
+    margin: 0 10rpx;
+    float: left;
+    font-size: 25rpx;
+    line-height: 50rpx;
+}
+.navBox{
+   padding: 0 20rpx;
+}

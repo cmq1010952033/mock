@@ -1,0 +1,8 @@
+<template name="courseRight" >
+   <view class='courseRightBox'>
+       <view class='titletop'><view class="nameClass">Web前端 <view class='jiao'></view></view><view class="title">{{title}}</view></view>
+        <view class="msgBox"><text class="msg">{{msg}}</text></view>
+        <view><text class="zz">作者:{{name}}</text><text class="num">阅读({{num}})</text><text class="time">{{time}}</text></view>
+    </view>
+        
+</template>

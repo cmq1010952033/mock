@@ -1,0 +1,12 @@
+<!-- 组件模板 -->
+<view class="header">
+  <view class='navBox'>
+    <image src='../img/logo.png' class='logo'></image>
+    <image src='../img/more.png' class='more' bindtap=''></image>
+  </view>
+  <view class="navListBox" wx:hidden='false'>
+    <block wx:for="{{navName}}">
+      <view class="navlist">{{item}}</view>
+    </block>
+  </view>
+</view>

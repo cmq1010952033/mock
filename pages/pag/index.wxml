@@ -1,0 +1,14 @@
+<!-- 引用组件的页面模版 -->
+<import src="../content/content.wxml" />
+<view>
+  <my-component></my-component>
+</view>
+
+<!--引用内容模块-->
+<scroll-view scroll-top="500" scroll-y="true"  class="list" bindscrolltolower="bindDownLoad" bindscrolltoupper="topLoad" bindscroll="scroll">
+  <view class='contentBox'>
+    <block wx:for="{{listData}}">
+      <template is="courseRight" data="{{...item}}"></template>
+    </block>
+  </view>
+</scroll-view>

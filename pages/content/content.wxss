@@ -1,0 +1,55 @@
+
+.courseRightBox{
+   padding: 20rpx;
+   margin: 20rpx 0;
+   font-size: 30rpx;
+   background: #fff;
+}
+.nameClass{
+   background: #42b983;
+   color: #fff;
+   float: left;
+   padding:10rpx 20rpx;
+   border-radius: 5rpx;
+   font-size: 20rpx;
+   position: relative;
+
+}
+.jiao{
+   width: 0px;
+   height: 0px;
+   border: 10rpx solid #42b983;
+   position: absolute;
+   top: 50%;
+   right:-6rpx;
+   margin-top: -7.07rpx;
+   transform:rotate(45deg);
+}
+.titletop{
+   overflow: hidden;
+}
+.title{
+  float: left;
+  font-size: 35rpx;
+  text-align: center;
+  padding-left:40rpx;
+}
+.msgBox{
+  display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+ margin:20rpx  0;
+
+}
+.time{
+  color:#999;
+}
+.zz{
+   color:#999;
+  margin: 0 20rpx;
+}
+.num{
+   color:#999;
+
+}

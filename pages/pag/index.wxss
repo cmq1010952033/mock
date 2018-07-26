@@ -1,0 +1,10 @@
+/**index.wxss**/
+@import "../content/content.wxss";
+
+page{
+  background-color: #efefef;
+}
+scroll-view {
+   width: 100%;
+   margin-top:36px; 
+ }
