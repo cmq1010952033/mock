@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/pag/index",
     "pages/header/header",
-    "pages/content/content"
+    "pages/content/content",
+    "pages/msg/msgweb"
+    
     
   ],
   "window":{

@@ -1,0 +1,15 @@
+  <import src="../wxParse/wxParse.wxml"/>
+<view class='boxmsg'>
+  <view>{{msgData[0].title}}</view>
+  <view>
+       <text>{{msgData[0].time}}</text>
+       <text>阅读（{{msgData[0].num}}）</text>
+       <text>作者：{{msgData[0].name}}</text>
+   </view>
+   <view >
+   
+    <template is="wxParse" data="{{wxParseData:article}}"/>
+    <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}" /> -->
+   </view>
+  
+</view>
